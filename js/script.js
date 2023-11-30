@@ -23,7 +23,7 @@ const printCountry = (country) => {
     modal.innerHTML = `
     <div class="img-info-container">
     <img src="${country.flags[1]}" alt="image country"/>
-    <div>
+    <div class="info">
     <h2>${country.name.common}</h2>
     <p>Capital: ${capital}</p>
     <p>Población:${country.population}</p>
@@ -31,7 +31,7 @@ const printCountry = (country) => {
     </div>
     </div>
     <div class="btn-container">
-    <button onclick="closeModal()">Cerrar</button>
+    <button class="btn" onclick="closeModal()">Cerrar</button>
     </div>
     `;
 };

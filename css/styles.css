@@ -2,11 +2,14 @@ body {
   font-family: 'Arial', sans-serif;
   background-color: #f0f0f0;
   margin: 0;
-  padding: 0;
+  padding: 40px;
 }
 
 h1 {
   color: #333;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 60px;
 }
 
 #countries-list {
@@ -57,7 +60,26 @@ img {
 .modal img {
   border-radius: 4px;
   width: 50%;
-  height: 50%;
+  height: auto;
+}
+
+.info {
+  margin-left: 15px;
+}
+
+.modal .btn {
+  cursor: pointer;
+  padding: 5px 8px;
+  border-radius: 6px;
+  background-color: black;
+  color: white;
+
+  transition: all 0.2s linear;
+  border: none;
+}
+
+.modal .btn:hover {
+  background-color: grey;
 }
 
 .hide {
